@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+      /*
+      compound conditions:
+
+      && and
+      || or
+
+      age guidelines:
+      12=hs   16=bach  18=masters 22=doctorate
+       */
+
+      var education =  16;
+      var experience = 0;
+
+      //producer -> HS Degree and/or 5 yr experience
+
+      if(education >= 12 && experience >= 5){
+              console.log("hired bro ");
+      }else{
+          console.log("not qualified bro sorry");
+      }
+
+      if(education >= 12 || experience >= 5){
+          console.log("hired bro ");
+      }else{
+          console.log("not qualified bro sorry");
+      }
+  </script>
+</body>
+</html>
