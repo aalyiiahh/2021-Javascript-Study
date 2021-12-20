@@ -8,12 +8,26 @@
     <script>
         //drawing some silly little star pattern
 
-        var banana = "";
+        var rows = 8;
+        var line = "";
+        var spaces = rows - 1;
 
-        for(var b = 0; b < 6; b++){
-            banana += "*";
-            console.log(banana);
+        //loop to control rows
+        for(var b = 0; b < rows; b++){
+
+            //loop to draw spaces
+            for(var l = 0; l < spaces; l++) {
+                line += "-";
+            }
+
+            for(var a = 0; a < b+1; a++){
+                line+= "* "
+            }
+            console.log(line);
+            line = "";
+            spaces -= 1;
         }
+
     </script>
 </body>
 </html>
