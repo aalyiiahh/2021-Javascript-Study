@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--
+    want to use a button to make image go away
+    -->
+    <script>
+        function byeBye(){
+            var image = document.getElementById("heartBreak");
+            image.style.display = "none";
+
+            var image2 = document.getElementById("capy");
+            image2.style.display = "block"
+        }
+    </script>
+</head>
+<body>
+<button type="button" onClick="byeBye()">click to make all your problems disappear</button>
+<img id="heartBreak" src="image/Broken-Heart.jpg" width="500">
+<img id="capy" src="image/capybara.jpg" width="500" style="display:none">
+</body>
+</html>
