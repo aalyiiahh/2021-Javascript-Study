@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yas</title>
+    <script>
+        function byeBye(){
+            var image = document.getElementById("heartBreak");
+            image.style.display = "none";
+
+            var div = document.getElementById("byetext");
+            div.style.display = "block";
+
+            var divv1 = document.getElementById("hitext");
+            divv1.style.display = "none";
+    </script>
+</head>
+<body>
+<div id="hitext" onClick="byeBye()">John Cena Be like:</div>
+<button type="button" onClick="byeBye()">click to see what he be like</button>
+<img id="heartBreak" src="img/johnCena.jfif" width="300">
+
+<br />
+<div id="byetext" onClick="byeBye()" style="display:none">YOu cant see me!</div>
+
+
+</body>
+</html>

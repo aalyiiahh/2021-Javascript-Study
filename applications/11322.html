@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function hi(){
+            var button = document.getElementById("button");
+            button.style.display = "block";
+        }
+        function bigger(){
+            var image = document.getElementById("capybara").width="500";
+        }
+    </script>
+</head>
+<body>
+  <div id="text" onClick="hi()">show button // secret message //click me</div>
+<button id="button" type="button" onMouseover="bigger()" style="display:none">do you want to see it bigger? // make image better</button>
+<img id="capybara" src="image/capybara.jpg" width="200">
+</body>
+</html>
